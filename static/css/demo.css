@@ -1,6 +1,6 @@
-#container{
-	width: 1440px;
-	margin:0 auto;
+body{
+    overflow-x:hidden;
+    font-family: '微軟正黑體';
 }
 
 #header{
@@ -14,15 +14,6 @@
 	float: left;
 	margin-left: 20px;
 }
-.default {
-    font-family: 'Arial Normal', 'Arial';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 24px;
-    color: #333333;
-    text-align: center;
-    line-height: normal;
-}
 
 #footer{
 	background-color:#FFA500;
@@ -30,6 +21,19 @@
 	height: 290px;
 	background-color: rgba(54, 54, 54, 1);
 	margin-bottom: 10px;
+    clear: both;height: 110px;background-color: rgba(210, 71, 38, 1);
+}
+
+.footer{
+    clear: both;
+    height: 110px;
+    background-color: rgba(210, 71, 38, 1);
+}
+
+.footer a{
+    line-height: 60px;
+    width: 300px;
+    text-align: center;
 }
 
 #footer div{
@@ -52,13 +56,22 @@ ul li{
 	text-align: center;
 }
 
-.title1{
+.title-level1{
+	font-family: '微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體';
+	font-weight: 700;
+	font-style: normal;
+	font-size: 40px;
+	text-align: center;
+}
+
+.title-level2{
 	font-family: '微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體';
 	font-weight: 700;
 	font-style: normal;
 	font-size: 36px;
 	text-align: left;
 }
+
 .title2{
 	font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
 	font-weight: 700;
@@ -88,43 +101,6 @@ ul li{
 	height:500px;
 }
 
-
-
-.fot{
-	font-family: '微软雅黑';
-	font-weight: 400;
-	font-style: normal;
-	font-size: 13px;
-	color: #C9C9C9;
-	text-align: left;
-}
-
-.fots{
-	font-family: '微軟正黑體';
-	font-weight: 400;
-	font-style: normal;
-	font-size: 18px;
-}
-
-.fots1{
-	float: left;
-	margin-left: 25px;
-	width: 500px;
-}
-
-.img-fonty{
-	font-family: '微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體';
-	font-weight: 700;
-	font-style: normal;
-	font-size: 26px;
-	color: #FFFFFF;
-}
-.miaoshu1{
-	font-family: '微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體';
-	font-weight: 700;
-	font-style: normal;
-	font-size: 20px;
-}
 .miaoshu2{
 	font-family: '微軟正黑體';
 	font-weight: 400;
@@ -132,38 +108,43 @@ ul li{
 	color: #000000;
 	font-size: 18px;
 }
-.miaoshu3{
+
+.partner-description{
 	font-family: '微軟正黑體';
 	font-weight: 400;
 	font-style: normal;
 	font-size: 22px;
 	color: #000000;
+    text-align: left;
+    margin-left:20%;
+    padding-top: 30px;
 }
 
-.contactUScss{
+.contactus{
 	border-width: 0px;
-	height: 530px;
+    clear: both;
+    height:500px;
+    background-color: rgba(242, 242, 242, 1);
+    padding-top: 20px;
 }
-.contactUS-addresscss{
-	font-family: '微软雅黑';
-	font-weight: 400;
-	font-style: normal;
-	font-size: 26px;
+
+.contactus-divgroup{
+    clear:both;
+    margin-left: 15%;
 }
-.contactUS-business{
-	font-family: '微软雅黑';
-	font-weight: 400;
-	font-style: normal;
-	font-size: 18px;
-	color: #5E5E5E;
-	text-align: left;
-	border-width: 0px;
-	position: absolute;
-	left: 640px;
-	top: 132px;
-	width: 390px;
-	height: 336px;
+
+.contactus-div{
+    margin: 2%;
+    display: inline-block;
 }
+
+.contactus-address-panel{
+    background-color: rgba(255, 255, 255, 1);
+    height: 336px;
+    width: 1000px;
+}
+
+
 .contact-title{
 	font-family: '微软雅黑';
 	font-weight: 400;
@@ -178,26 +159,7 @@ ul li{
 	color: #5E5E5E;
 	text-align: left;
 }
-.question{
-	border-width: 0px;
-	position: absolute;
-	left: 0px;
-	top: 4087px;
-	width: 1200px;
-	height: 146px;
-	overflow: hidden;
-}
 
-.picContent {
-	font-family: 'Bauhaus 93 Normal', 'Bauhaus 93';
-	font-weight: 400;
-	font-style: normal;
-	font-size: 22px;
-	color: #FFBF9B;
-	display:block ;
-	padding-top: 100px;
-	padding-left: 100px;
-}
 
 ul li{
     list-style-type: none;
@@ -232,10 +194,249 @@ ul{
 }
 .product{
     height: 678px;
-    width: 1440px;
+    width:  1440px;
     margin: 0 auto;
 }
 
 .solution{
     background-color: rgba(242, 242, 242, 1);
+}
+
+.solution-img{
+    width:330px;
+    height:195px;
+}
+
+.solution-div{
+    float: left;
+    position: relative;
+    left: 120px;
+    top:-80px;
+    font-family: '微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體';
+	font-weight: 700;
+	font-style: normal;
+	font-size: 26px;
+	color: #FFFFFF;
+}
+
+.solution-content{
+    color: white
+}
+
+/*新增加等css*/
+.framework{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header-logo{
+    width: 800px;
+    float: left;
+}
+
+.header-menu{
+    float: left;
+    margin-right: 15%;
+}
+
+.menu-div{
+    height: 20px;
+
+}
+.menu-search{
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+}
+.login-logo{
+    float: left;
+    margin-left: 20px;
+    -webkit-appearance: none;
+}
+
+.carousel-img{
+    clear:both;
+    float: right;
+    width:500px;
+    height:500px;
+}
+.carousel-img-active{
+    clear:both;
+    width:100%;
+    height:500px;
+}
+
+.carousel-content-portal{
+    display:block;
+    padding-left: 100px;
+    font-family: 'Bauhaus 93 Normal', 'Bauhaus 93';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 22px;
+	color: #FFBF9B;
+	display:block ;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+.carousel-content-words{
+    padding-top: 120px;
+    padding-left: 100px;
+}
+.carousel-content-link{
+    display:block;
+    color: white;
+    padding-top: 220px;
+    padding-left: 100px;
+    target-new: window;
+}
+
+.carousel-div1{
+    background-color: rgba(210,71,38,1);
+    height: 500px
+}
+
+.carousel-div2{
+    background-color: rgba(254,106,15,1);
+    height: 500px
+}
+
+.choice{
+    height: 805px;
+}
+
+.choice-div{
+    display: inline-block;
+}
+
+.choice-span{
+    font-family: '微軟正黑體';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 28px;
+	text-align: left;
+	display:inline-block;
+	width: 630px;
+}
+
+.choice-img1{
+    float: left;
+    display: inline;
+}
+
+.choice-img2{
+    float: right;
+    display: inline;
+}
+.choice-framework{
+    clear: both;
+    height: 220px;
+    width: 1100px;
+}
+
+.mession{
+    clear: both;
+    background-color: rgba(242, 242, 242, 1);
+    height: 450px;
+}
+
+.mession-div{
+    width: 70%;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.description{
+    font-family: '微軟正黑體';
+	font-weight: 400;
+	font-style: normal;
+	color: #000000;
+	font-size: 18px;
+    display:inline;
+}
+
+.mession-divgroup{
+     width: 1000px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.mession-div1{
+    margin-left:100px;
+    width: 300px;
+    font-family: '微軟正黑體';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.mession-framework{
+	float: left;
+	margin-left: 25px;
+	width: 300px;
+}
+.mession-content{
+    font-family: '微軟正黑體 Bold', '微軟正黑體 Regular', '微軟正黑體';
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+}
+.mession-detail{
+    font-family: '微軟正黑體';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.partner{
+    clear: both;
+    background-color: white;
+    height:300px;
+}
+
+.about{
+    font-family: '微软雅黑';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 26px;
+    clear: both;
+    height: 230px;
+    background-color: rgba(54,54,54,1);
+}
+
+.about-menu{
+    display:inline;
+    float: left;
+    margin-left: 50px;
+}
+
+.about-submenu{
+	font-family: '微軟正黑體';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+    color: #C9C9C9;
+}
+
+.about-div{
+    float: left;
+    display: inline;
+}
+
+.secret{
+    margin-left: 460px;
+}
+
+.service{
+    margin-left: 25px;
+}
+
+.info{
+    margin-left: 15%;
+}
+
+.about-hr{
+    color: #333333;
+    width: 1043px;
+    margin-left: 15%;
 }
