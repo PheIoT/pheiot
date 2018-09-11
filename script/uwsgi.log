@@ -1,0 +1,237 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Sep  9 15:53:27 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 08 September 2018 12:38:54
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Fri Jul  6 19:54:51 PDT 2018; root:xnu-4570.71.3~2/RELEASE_X86_64
+nodename: quanwendeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/quanwen/workspace/pheiot/script
+writing pidfile to /Users/quanwen/workspace/pheiot/script/uwsgi.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+chdir() to /Users/quanwen/workspace/pheiot
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+building mime-types dictionary from file /etc/apache2/mime.types...1003 entry found
+lock engine: OSX spinlocks
+thunder lock: enabled
+bind(): Can't assign requested address [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sun Sep  9 16:31:19 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 08 September 2018 12:38:54
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Fri Jul  6 19:54:51 PDT 2018; root:xnu-4570.71.3~2/RELEASE_X86_64
+nodename: quanwendeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/quanwen/workspace/pheiot/script
+writing pidfile to /Users/quanwen/workspace/pheiot/script/uwsgi.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+chdir() to /Users/quanwen/workspace/pheiot
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+building mime-types dictionary from file /etc/apache2/mime.types...1003 entry found
+lock engine: OSX spinlocks
+thunder lock: enabled
+uWSGI http bound on 172.20.10.14:8081 fd 3
+uwsgi socket 0 bound to UNIX address /Users/quanwen/workspace/pheiot/script/uwsgi.sock fd 6
+Python version: 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7f8db1d022f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486480 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8db1d022f0 pid: 3031 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3031)
+spawned uWSGI worker 1 (pid: 3032, cores: 1)
+spawned uWSGI worker 2 (pid: 3033, cores: 1)
+spawned uWSGI worker 3 (pid: 3034, cores: 1)
+spawned uWSGI worker 4 (pid: 3035, cores: 1)
+spawned uWSGI worker 5 (pid: 3036, cores: 1)
+spawned uWSGI http 1 (pid: 3037)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Sep 10 11:09:09 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 08 September 2018 12:38:54
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Fri Jul  6 19:54:51 PDT 2018; root:xnu-4570.71.3~2/RELEASE_X86_64
+nodename: quanwendeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/quanwen/workspace/pheiot/script
+writing pidfile to /Users/quanwen/workspace/pheiot/script/uwsgi.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+chdir() to /Users/quanwen/workspace/pheiot
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+building mime-types dictionary from file /etc/apache2/mime.types...1003 entry found
+lock engine: OSX spinlocks
+thunder lock: enabled
+bind(): Can't assign requested address [core/socket.c line 769]
+Mon Sep 10 03:10:17 2018 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Sep 10 03:10:18 2018 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Sep 10 03:10:20 2018 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Sep 10 03:10:23 2018 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Sep 10 03:10:26 2018 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Sep 10 11:10:53 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 08 September 2018 12:38:54
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Fri Jul  6 19:54:51 PDT 2018; root:xnu-4570.71.3~2/RELEASE_X86_64
+nodename: quanwendeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/quanwen/workspace/pheiot/script
+writing pidfile to /Users/quanwen/workspace/pheiot/script/uwsgi.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+chdir() to /Users/quanwen/workspace/pheiot
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+building mime-types dictionary from file /etc/apache2/mime.types...1003 entry found
+lock engine: OSX spinlocks
+thunder lock: enabled
+uWSGI http bound on 172.17.3.34:8081 fd 3
+uwsgi socket 0 bound to UNIX address /Users/quanwen/workspace/pheiot/script/uwsgi.sock fd 6
+Python version: 3.7.0 (v3.7.0:1bf9cc5093, Jun 26 2018, 23:26:24)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7f9ff9c16610
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 486480 bytes (475 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9ff9c16610 pid: 3257 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3257)
+spawned uWSGI worker 1 (pid: 3258, cores: 1)
+spawned uWSGI worker 2 (pid: 3259, cores: 1)
+spawned uWSGI worker 3 (pid: 3260, cores: 1)
+spawned uWSGI worker 4 (pid: 3261, cores: 1)
+spawned uWSGI worker 5 (pid: 3262, cores: 1)
+spawned uWSGI http 1 (pid: 3263)
+Not Found: /
+[pid: 3258|app: 0|req: 1/1] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:19:49 2018] GET / => generated 2032 bytes in 40 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3258|app: 0|req: 2/2] 172.17.3.202 () {34 vars in 610 bytes} [Mon Sep 10 03:19:50 2018] GET /favicon.ico => generated 2083 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3258|app: 0|req: 3/3] 172.17.3.202 () {34 vars in 550 bytes} [Mon Sep 10 03:19:50 2018] GET /favicon.ico => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3258|app: 0|req: 4/4] 172.17.3.202 () {36 vars in 647 bytes} [Mon Sep 10 03:19:59 2018] GET /portal/index => generated 0 bytes in 1 msecs (HTTP/1.1 301) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 3258|app: 0|req: 5/5] 172.17.3.202 () {36 vars in 649 bytes} [Mon Sep 10 03:19:59 2018] GET /portal/index/ => generated 22484 bytes in 33 msecs (HTTP/1.1 200) 3 headers in 111 bytes (4 switches on core 0)
+[pid: 3258|app: -1|req: -1/6] 172.17.3.202 () {36 vars in 632 bytes} [Mon Sep 10 03:19:59 2018] GET /static/css/box.css => generated 1374 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/7] 172.17.3.202 () {36 vars in 634 bytes} [Mon Sep 10 03:19:59 2018] GET /static/css/demo.css => generated 7217 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (1 switches on core 0)
+[pid: 3258|app: -1|req: -1/8] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u30.png => generated 94072 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (12 switches on core 0)
+[pid: 3258|app: -1|req: -1/9] 172.17.3.202 () {36 vars in 621 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u7.png => generated 562 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/10] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u48.jpg => generated 177896 bytes in 73 msecs via sendfile() (HTTP/1.1 200) 3 headers in 115 bytes (24 switches on core 0)
+[pid: 3258|app: -1|req: -1/11] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u203.png => generated 16713 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/12] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u40.png => generated 20842 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (1 switches on core 0)
+[pid: 3258|app: -1|req: -1/13] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u209.png => generated 18496 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/14] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u211.png => generated 8279 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/15] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u217.png => generated 10227 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/16] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u219.png => generated 8736 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 3258|app: -1|req: -1/17] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u57.png => generated 3513 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/18] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u53.png => generated 3616 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/19] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:19:59 2018] GET /static/images/u58.png => generated 2526 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/20] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u59.png => generated 3796 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 3258|app: -1|req: -1/21] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u65.png => generated 27467 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (2 switches on core 0)
+[pid: 3258|app: -1|req: -1/22] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u107.png => generated 185466 bytes in 67 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (29 switches on core 0)
+[pid: 3258|app: -1|req: -1/23] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u129.png => generated 60499 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (7 switches on core 0)
+[pid: 3258|app: -1|req: -1/24] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u130.png => generated 38695 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (4 switches on core 0)
+[pid: 3258|app: -1|req: -1/25] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u131.png => generated 97556 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (11 switches on core 0)
+[pid: 3258|app: -1|req: -1/26] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u132.png => generated 108279 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (15 switches on core 0)
+[pid: 3258|app: -1|req: -1/27] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u133.png => generated 73061 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (9 switches on core 0)
+[pid: 3258|app: -1|req: -1/28] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u218.png => generated 8814 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/29] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u134.png => generated 99843 bytes in 3 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (14 switches on core 0)
+[pid: 3258|app: -1|req: -1/30] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u143.png => generated 232048 bytes in 151 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (30 switches on core 0)
+[pid: 3258|app: -1|req: -1/31] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u144.png => generated 9062 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/32] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u147.png => generated 31051 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (2 switches on core 0)
+[pid: 3258|app: -1|req: -1/33] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u146.png => generated 43254 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (3 switches on core 0)
+[pid: 3258|app: -1|req: -1/34] 172.17.3.202 () {36 vars in 625 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u148.png => generated 8055 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/35] 172.17.3.202 () {36 vars in 622 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u149.png => generated 6358 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/36] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u150.png => generated 3453 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/37] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u187.png => generated 187657 bytes in 110 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (28 switches on core 0)
+[pid: 3261|app: -1|req: -1/38] 172.17.3.202 () {36 vars in 624 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u181.png => generated 10959 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/39] 172.17.3.202 () {36 vars in 624 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u183.png => generated 13420 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/40] 172.17.3.202 () {36 vars in 624 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u182.png => generated 12826 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/41] 172.17.3.202 () {36 vars in 624 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u180.png => generated 7480 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3258|app: -1|req: -1/42] 172.17.3.202 () {36 vars in 623 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u179.png => generated 179745 bytes in 85 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (22 switches on core 0)
+[pid: 3261|app: -1|req: -1/44] 172.17.3.202 () {36 vars in 624 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/u184.png => generated 1409 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 3258|app: -1|req: -1/44] 172.17.3.202 () {36 vars in 644 bytes} [Mon Sep 10 03:20:00 2018] GET /static/images/transparent.gif => generated 43 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 110 bytes (0 switches on core 0)
+[pid: 3261|app: 0|req: 1/45] 172.17.3.202 () {38 vars in 680 bytes} [Mon Sep 10 06:13:16 2018] GET /portal/index/ => generated 22484 bytes in 45 msecs (HTTP/1.1 200) 3 headers in 111 bytes (4 switches on core 0)
+[pid: 3261|app: -1|req: -1/46] 172.17.3.202 () {38 vars in 665 bytes} [Mon Sep 10 06:13:17 2018] GET /static/css/demo.css => generated 7217 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/47] 172.17.3.202 () {38 vars in 663 bytes} [Mon Sep 10 06:13:17 2018] GET /static/css/box.css => generated 1374 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/48] 172.17.3.202 () {38 vars in 652 bytes} [Mon Sep 10 06:13:17 2018] GET /static/images/u7.png => generated 562 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 111 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/49] 172.17.3.202 () {38 vars in 654 bytes} [Mon Sep 10 06:13:17 2018] GET /static/images/u48.jpg => generated 177896 bytes in 172 msecs via sendfile() (HTTP/1.1 200) 3 headers in 115 bytes (30 switches on core 0)
+[pid: 3261|app: -1|req: -1/50] 172.17.3.202 () {38 vars in 654 bytes} [Mon Sep 10 06:13:17 2018] GET /static/images/u30.png => generated 94072 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (11 switches on core 0)
+[pid: 3261|app: -1|req: -1/51] 172.17.3.202 () {38 vars in 654 bytes} [Mon Sep 10 06:13:17 2018] GET /static/images/u40.png => generated 20842 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (3 switches on core 0)
+[pid: 3261|app: -1|req: -1/52] 172.17.3.202 () {38 vars in 656 bytes} [Mon Sep 10 06:13:17 2018] GET /static/images/u203.png => generated 16713 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (2 switches on core 0)
+[pid: 3261|app: -1|req: -1/53] 172.17.3.202 () {38 vars in 656 bytes} [Mon Sep 10 06:13:17 2018] GET /static/images/u211.png => generated 8279 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 3261|app: -1|req: -1/54] 172.17.3.202 () {40 vars in 711 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u218.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/55] 172.17.3.202 () {40 vars in 711 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u217.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/56] 172.17.3.202 () {38 vars in 656 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u134.png => generated 99843 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (12 switches on core 0)
+[pid: 3261|app: -1|req: -1/57] 172.17.3.202 () {40 vars in 711 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u181.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/58] 172.17.3.202 () {40 vars in 711 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u182.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/59] 172.17.3.202 () {38 vars in 656 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u209.png => generated 18496 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (3 switches on core 0)
+[pid: 3261|app: -1|req: -1/60] 172.17.3.202 () {40 vars in 709 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u57.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (1 switches on core 0)
+[pid: 3261|app: -1|req: -1/61] 172.17.3.202 () {38 vars in 676 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/transparent.gif => generated 43 bytes in 0 msecs via sendfile() (HTTP/1.1 200) 3 headers in 110 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/62] 172.17.3.202 () {40 vars in 709 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u53.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/63] 172.17.3.202 () {40 vars in 709 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u58.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/64] 172.17.3.202 () {40 vars in 706 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u59.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/65] 172.17.3.202 () {38 vars in 652 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u65.png => generated 27467 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (2 switches on core 0)
+[pid: 3261|app: -1|req: -1/66] 172.17.3.202 () {38 vars in 654 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u107.png => generated 185466 bytes in 179 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (32 switches on core 0)
+[pid: 3261|app: -1|req: -1/67] 172.17.3.202 () {38 vars in 654 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u129.png => generated 60499 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (8 switches on core 0)
+[pid: 3261|app: -1|req: -1/68] 172.17.3.202 () {38 vars in 655 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u130.png => generated 38695 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (4 switches on core 0)
+[pid: 3261|app: -1|req: -1/69] 172.17.3.202 () {38 vars in 655 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u131.png => generated 97556 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (16 switches on core 0)
+[pid: 3261|app: -1|req: -1/70] 172.17.3.202 () {38 vars in 655 bytes} [Mon Sep 10 06:13:18 2018] GET /static/images/u132.png => generated 108279 bytes in 2 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (16 switches on core 0)
+[pid: 3261|app: -1|req: -1/71] 172.17.3.202 () {38 vars in 655 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u133.png => generated 73061 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 113 bytes (15 switches on core 0)
+[pid: 3261|app: -1|req: -1/72] 172.17.3.202 () {38 vars in 655 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u143.png => generated 232048 bytes in 163 msecs via sendfile() (HTTP/1.1 200) 3 headers in 114 bytes (34 switches on core 0)
+[pid: 3261|app: -1|req: -1/73] 172.17.3.202 () {38 vars in 655 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u144.png => generated 9062 bytes in 1 msecs via sendfile() (HTTP/1.1 200) 3 headers in 112 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/74] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u147.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/75] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u146.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/76] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u219.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/77] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u149.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/78] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u150.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/79] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u187.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/80] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u183.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/81] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u180.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/82] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u148.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/83] 172.17.3.202 () {40 vars in 710 bytes} [Mon Sep 10 06:13:19 2018] GET /static/images/u184.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+[pid: 3261|app: -1|req: -1/84] 172.17.3.202 () {40 vars in 711 bytes} [Mon Sep 10 06:13:20 2018] GET /static/images/u179.png => generated 0 bytes in 0 msecs (HTTP/1.1 304) 0 headers in 29 bytes (0 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Mon Sep 10 14:16:44 2018] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 9.1.0 (clang-902.0.39.2) on 08 September 2018 12:38:54
+os: Darwin-17.7.0 Darwin Kernel Version 17.7.0: Fri Jul  6 19:54:51 PDT 2018; root:xnu-4570.71.3~2/RELEASE_X86_64
+nodename: quanwendeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/quanwen/workspace/pheiot/script
+writing pidfile to /Users/quanwen/workspace/pheiot/script/uwsgi.pid
+detected binary path: /Library/Frameworks/Python.framework/Versions/3.7/bin/uwsgi
+chdir() to /Users/quanwen/workspace/pheiot
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+building mime-types dictionary from file /etc/apache2/mime.types...1003 entry found
+lock engine: OSX spinlocks
+thunder lock: enabled
+probably another instance of uWSGI is running on the same address (172.17.3.34:8081).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 3261|app: 0|req: 2/85] 172.17.3.202 () {36 vars in 649 bytes} [Mon Sep 10 06:16:50 2018] GET /portal/index/ => generated 22484 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (4 switches on core 0)
+Not Found: /
+[pid: 3261|app: 0|req: 3/86] 127.0.0.1 () {40 vars in 662 bytes} [Tue Sep 11 01:40:29 2018] GET / => generated 2030 bytes in 42 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /
+[pid: 3261|app: 0|req: 4/87] 127.0.0.1 () {40 vars in 662 bytes} [Tue Sep 11 01:40:35 2018] GET / => generated 2030 bytes in 2 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3261|app: 0|req: 5/88] 127.0.0.1 () {40 vars in 686 bytes} [Tue Sep 11 01:40:37 2018] GET /portal/index => generated 0 bytes in 0 msecs (HTTP/1.1 301) 3 headers in 119 bytes (1 switches on core 0)
+[pid: 3261|app: 0|req: 6/89] 127.0.0.1 () {40 vars in 688 bytes} [Tue Sep 11 01:40:37 2018] GET /portal/index/ => generated 22484 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (3 switches on core 0)
+[pid: 3261|app: 0|req: 7/90] 172.17.3.202 () {40 vars in 705 bytes} [Tue Sep 11 01:42:27 2018] GET /portal/index/ => generated 22484 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (4 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3261|app: 0|req: 8/91] 172.17.3.202 () {38 vars in 666 bytes} [Tue Sep 11 01:42:33 2018] GET /favicon.ico => generated 2083 bytes in 4 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3261|app: 0|req: 9/92] 172.17.3.202 () {40 vars in 705 bytes} [Tue Sep 11 01:42:57 2018] GET /portal/index/ => generated 22484 bytes in 2 msecs (HTTP/1.1 200) 3 headers in 111 bytes (4 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3261|app: 0|req: 10/93] 172.17.3.202 () {38 vars in 666 bytes} [Tue Sep 11 01:42:59 2018] GET /favicon.ico => generated 2083 bytes in 5 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3261|app: 0|req: 11/94] 172.17.3.202 () {38 vars in 606 bytes} [Tue Sep 11 01:42:59 2018] GET /favicon.ico => generated 2083 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
