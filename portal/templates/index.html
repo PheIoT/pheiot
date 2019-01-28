@@ -182,22 +182,13 @@
 						</li>
 					</ul>
 					<ul>
-						<li class="nothing">
-							<img src="/static/images/home/u72.svg">
-							<p>敬请期待</p>
-						</li>
+						<li class="nothing"><img src="/static/images/home/u72.svg"></li>
 					</ul>
 					<ul>
-						<li class="nothing">
-							<img src="/static/images/home/u72.svg">
-							<p>敬请期待</p>
-						</li>
+						<li class="nothing"><img src="/static/images/home/u72.svg"></li>
 					</ul>
 					<ul>
-						<li class="nothing">
-							<img src="/static/images/home/u76.svg">
-							<p>敬请期待</p>
-						</li>
+						<li class="nothing"><img src="/static/images/home/u76.svg"></li>
 					</ul>
 				</div>
 			</div>
@@ -465,11 +456,14 @@
                 $(this).css("backgroundColor","");
             });
 			//轮播图特效
+			
 			$(".banner ol li").click(function(){
-				$(this).addClass("current").siblings().removeClass("current");
-				var idx = $(this).index();
-				$(".banner ul li").eq(ind).fadeIn(0.1).siblings().fadeOut();
+			$(this).addClass("current").siblings().removeClass("current");
+			var idx = $(this).index();
+			$(".banner ul li").eq(idx).fadeIn(0.1).siblings().fadeOut();
+
 			});
+			
 
 			// tab菜单
 			$(".item").click(function(){
@@ -482,11 +476,12 @@
 		
 		//自动轮播
 		idx = $(".banner>ol> .current").index();
+
 		var lenIdx = $(".banner ul li").length;
-        //var timer = setInterval(move, 2000);
+        var timer = setInterval(move, 3000);
         function move() {
 			var cur = $(".banner>ol> .current").index();
-			//console.log("idx....",idx,"....cur....",cur);
+			console.log("idx....",idx,"....cur....",cur);
 			//自动播放过程中被点击,拿下标和当前的下标做比较，然后把idx置为cur
 			if(idx-1 != cur){
 				idx = cur;
@@ -495,10 +490,10 @@
 			if(idx == lenIdx){
             	idx=0;
             }
-            
+            //console.log(idx);
             $(".banner ul li").eq(idx).addClass("active").siblings().removeClass("active");
             $(".banner ol li").eq(idx).addClass("current").siblings().removeClass("current");
-            
+            //idx--;
             $(".banner ol li").eq(idx).addClass("current").siblings().removeClass("current");
             $(".banner ul li").eq(idx).fadeIn(1).siblings().fadeOut();
             idx++;
