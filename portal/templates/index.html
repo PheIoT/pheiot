@@ -67,7 +67,7 @@
 					做更懂企业的一流的物联网解决方案和服务提供商，助力各行业、各组织更轻松安全地拥有物联网的力量，不断提高生产效率、业务响应能力、规模化创新能力及盈利能力，最终打破行业边界构建更多新的价值，实现商业模式的突破和业务腾飞
 				</p>
 			</div>
-			<div>
+			<div class="content">
 				<ul>
 					<li>
 						<div class="img">
@@ -182,13 +182,22 @@
 						</li>
 					</ul>
 					<ul>
-						<li class="nothing"><img src="/static/images/home/u72.svg"></li>
+						<li class="nothing">
+							<img src="/static/images/home/u72.svg">
+							<p>敬请期待</p>
+						</li>
 					</ul>
 					<ul>
-						<li class="nothing"><img src="/static/images/home/u72.svg"></li>
+						<li class="nothing">
+							<img src="/static/images/home/u72.svg">
+							<p>敬请期待</p>
+						</li>
 					</ul>
 					<ul>
-						<li class="nothing"><img src="/static/images/home/u76.svg"></li>
+						<li class="nothing">
+							<img src="/static/images/home/u76.svg">
+							<p>敬请期待</p>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -330,7 +339,7 @@
 					<img src="/static/images/home/u147.png" width="217" height="21">
 					<!-- <img src="images/home/u152.png" width="197" height="13"> -->
 				</div>
-				<div><img src="/static/images/home/u148.png" width="80" height="80"></div>
+				<div><img src="/static/images/home/u148.png" width="80" height="80"></div> 
 			</div>
 			<div class="sline">
 				<div><img src="/static/images/home/u149.png" width="123" height="65"></div>
@@ -342,6 +351,7 @@
 	<!-- 联系我们 -->
 	<div class="contact">
 		<div class="w">
+			<div class="subcontent">
 			<div class="title">联系我们</div>
 			<div class="cleft"><img src="/static/images/home/u166.png" width="430" height="273">
 			</div>
@@ -371,21 +381,25 @@
 					</li>
 				</ul>
 			</div>
+			</div>
 		</div>
 	</div>
 	<!-- 疑问解答 -->
 	<div class="que">
 		<div class="w">
-			<div class="content">
-				<span>PheCloud，开放领先、永久免费的天玑云智能AIoT SaaS服务</span>
-				<div><a href="#">立即免费开通</a></div>
+			<div class="subcontent">
+				<div class="content">
+					<span>PheCloud，开放领先、永久免费的天玑云智能AIoT SaaS服务</span>
+					<div><a href="#">立即体验</a></div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!-- 联系我们 -->
 	<div class="about" name="about">
 		<div class="w">
-			<div class="aleft">
+			<div class="subcontent">
+				<div class="aleft">
 				<div  class="info">
 					<p>第一时间获取产品、服务更新等信息</p>
 					<input type="text" placeholder="欢迎留下邮箱订阅"/>
@@ -399,8 +413,8 @@
 						<i class="fa fa-qq fa-lg" aria-hidden="true"></i>
 					</p>
 				</div>
-			</div>
-			<div class="aright">
+				</div>
+				<div class="aright">
 				<div>
 					<ul>
 						<li>
@@ -426,17 +440,18 @@
 						</li>
 						<li>
 							<h2>获取帮助</h2>
-							<a href="#"><p>技术支持中心</p></a>
+							<a href="#"><p>技术支持</p></a>
 							<a href="#"><p>常见问题</p></a>
 							<a href="#"><p>网站地图</p></a>
-							<a href="#"><p>开发者 / 合作者</p></a>
+							<a href="#"><p>意见反馈</p></a>
 						</li>
 					</ul>
 				</div>
-		</div>
-		<div class="abottom">
-			<span>Copyright © 2018 天玑云智能科技（珠海）有限公司        粤ICP备12345678</span>
-		</div>
+				</div>
+				<div class="abottom">
+					<span>Copyright © 2018 天玑云智能科技（珠海）有限公司        粤ICP备12345678</span>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -468,7 +483,7 @@
 		//自动轮播
 		idx = $(".banner>ol> .current").index();
 		var lenIdx = $(".banner ul li").length;
-        var timer = setInterval(move, 5000);
+        //var timer = setInterval(move, 2000);
         function move() {
 			var cur = $(".banner>ol> .current").index();
 			//console.log("idx....",idx,"....cur....",cur);

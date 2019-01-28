@@ -424,6 +424,13 @@ li{
 	transform: translate(-50%,-50%);
 }
 
+.service .nothing p{
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
 .service .tab-bd .ps>p:first-child{
 	line-height: 22px;
 	padding-left: 15px;
@@ -598,7 +605,8 @@ li{
 	height: 550px;
 	position: absolute;
 	top: 212px;
-	left: 120px;
+	left: 50%;
+	transform: translateX(-50%);
 	background-color: rgba(51, 102, 204, 0.4);
 	opacity: 0.8;
 	z-index: 1;
