@@ -456,14 +456,11 @@
                 $(this).css("backgroundColor","");
             });
 			//轮播图特效
-			
 			$(".banner ol li").click(function(){
-			$(this).addClass("current").siblings().removeClass("current");
-			var idx = $(this).index();
-			$(".banner ul li").eq(idx).fadeIn(0.1).siblings().fadeOut();
-
+				$(this).addClass("current").siblings().removeClass("current");
+				var ind = $(this).index();
+				$(".banner ul li").eq(ind).fadeIn(0.1).siblings().fadeOut();
 			});
-			
 
 			// tab菜单
 			$(".item").click(function(){
@@ -476,9 +473,8 @@
 		
 		//自动轮播
 		idx = $(".banner>ol> .current").index();
-
 		var lenIdx = $(".banner ul li").length;
-        var timer = setInterval(move, 3000);
+        var timer = setInterval(move, 6000);
         function move() {
 			var cur = $(".banner>ol> .current").index();
 			console.log("idx....",idx,"....cur....",cur);

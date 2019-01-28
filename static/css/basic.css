@@ -39,6 +39,10 @@ li{
 	font-weight: normal;
 	font-style: normal;
 }
+
+.subcontent{
+	position: relative;
+}
 /*顶部开始*/
 .header{
 	width: 100%;
@@ -260,13 +264,20 @@ li{
 	text-align: center;
 	line-height: 26px;
 	width: 1100px;
-	height: 360px;
+	height: 60px;
 	margin: 0 auto;
+}
+.mession .content{
+	height: 270px;
+	
 }
 .mession ul{
 	position: absolute;
-	left: 200px;
+	left: 50%;
+	width: 1000px;
+	transform: translateX(-50%);
 	top: 180px;
+	height: 270px;
 }
 .mession ul p{
 	font-family: '微軟正黑體 Bold', '微軟正黑體';
@@ -288,10 +299,12 @@ li{
 
 .mession ul li{
 	width: 310px;
-	height: 80px;
-	margin-right: 50px;
+	height: 270px;
 	float: left;
 	text-align: center;
+}
+.mession ul li:nth-child(2){
+	margin: 0 35px;
 }
 .mession .img{
 	text-align: right;
@@ -422,13 +435,6 @@ li{
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-}
-
-.service .nothing p{
-	position: absolute;
-	bottom: 20%;
-	left: 50%;
-	transform: translateX(-50%);
 }
 
 .service .tab-bd .ps>p:first-child{
@@ -1179,26 +1185,34 @@ li{
 /*疑问解答结束*/
 .about{
 	background-color: rgba(54, 54, 54, 1);
-	height: 290px;
+	height: 320px;
 	color: #C9C9C9;
 	position: absolute;
 	top: 5289px;
 	left: 0;
 	width: 100%;
 }
-.about .aleft{
+/*.about .aleft{
 	margin:50px 0 0 150px; 
 	height: 200px;
+	
+}*/
+.about .aleft{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	height: 200px;
+	width: 600px;
 }
 .about .aleft .br{
 	position: absolute;
-	top: 50px;
-	left: 520px;
+	top: 30px;
+	left: 400px;
 }
 .about .aleft .info p{
 	position: absolute;
-	top: 50px;
-	left: 150px;
+	top: 30px;
+	left: 0;
 	font-family: '微软雅黑';
 	font-weight: 400;
 	font-style: normal;
@@ -1207,7 +1221,7 @@ li{
 }
 .about .aleft .info input{
 	position: absolute;
-	top: 85px;
+	top: 75px;
 	height: 40px;
 	width: 220px;
 	font-family: '微软雅黑';
@@ -1228,13 +1242,13 @@ li{
 	text-align: center;
 	background-color: rgba(210, 71, 38, 1);
 	position: absolute;
-	left: 390px;
-	top: 85px;
+	left: 240px;
+	top: 75px;
 }
 .about .aleft .concern{
 	position: absolute;
-	top: 185px;
-	left: 150px;
+	top: 165px;
+	left: 0;
 }
 .about .aleft .bt span{
 	font-family: '微软雅黑';
@@ -1250,16 +1264,20 @@ li{
 }
 .about .aright{
 	position: absolute;
-	top: 20px;
-	left: 680px;
+	top: 30px;
+	right: 0;
+
 }
 
 .about .aright li{
 	float: left;
-	margin: 30px 44px;
+	margin: 30px 50px;
 }
 .about .aright li:first-child{
 	margin-left: 80px;
+}
+.about .aright li:last-child{
+	margin-right: 10px;
 }
 .about .aright h2{
 	font-family: '微软雅黑';
@@ -1284,14 +1302,21 @@ li{
 }
 
 .about .abottom{
-	width: 1200px;
+	width: 1300px;
 	margin: 0 auto;
 	border-top: 1px solid #fff;
 	position: absolute;
 	bottom: 20px;
-	left: 150px;
+	left: 0;
 	font-size: 12px;
 	padding-top: 10px;
+}
+.about .subcontent{
+	width: 1300px;
+	height: 320px;
+	top: 0;
+	left: 0;
+	margin: 0 auto;
 }
 
 .about .abottom a{
