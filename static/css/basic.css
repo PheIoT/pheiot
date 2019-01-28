@@ -41,7 +41,7 @@ li{
 }
 /*顶部开始*/
 .header{
-	width: 1440px;
+	width: 100%;
 	line-height: 60px;
 	height: 60px;
 	color:  #333333 ;
