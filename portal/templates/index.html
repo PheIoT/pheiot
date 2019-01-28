@@ -451,14 +451,9 @@
             });
 			//轮播图特效
 			$(".banner ol li").click(function(){
-			$(this).addClass("current").siblings().removeClass("current");
-			var ind = $(this).index();
-			// console.log(ind);
-			var color = $(".banner ul li").eq(ind).css("background-color");
-			// console.log(color);
-			$(".header").css("background-color",color);
-			$(".banner ul li").eq(ind).fadeIn(0.1).siblings().fadeOut();
-
+				$(this).addClass("current").siblings().removeClass("current");
+				var idx = $(this).index();
+				$(".banner ul li").eq(ind).fadeIn(0.1).siblings().fadeOut();
 			});
 
 			// tab菜单
@@ -471,18 +466,27 @@
 		});
 		
 		//自动轮播
-		var idx = $(".banner>ol> .current").index();
+		idx = $(".banner>ol> .current").index();
 		var lenIdx = $(".banner ul li").length;
         var timer = setInterval(move, 5000);
         function move() {
-			if(idx < lenIdx){
-				idx++;
-			}else if(idx == lenIdx){
+			var cur = $(".banner>ol> .current").index();
+			//console.log("idx....",idx,"....cur....",cur);
+			//自动播放过程中被点击,拿下标和当前的下标做比较，然后把idx置为cur
+			if(idx-1 != cur){
+				idx = cur;
+			}			
+
+			if(idx == lenIdx){
             	idx=0;
             }
-            console.log(idx);
+            
             $(".banner ul li").eq(idx).addClass("active").siblings().removeClass("active");
             $(".banner ol li").eq(idx).addClass("current").siblings().removeClass("current");
+            
+            $(".banner ol li").eq(idx).addClass("current").siblings().removeClass("current");
+            $(".banner ul li").eq(idx).fadeIn(1).siblings().fadeOut();
+            idx++;
         }
 
 	</script>
